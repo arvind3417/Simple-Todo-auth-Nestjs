@@ -6,6 +6,10 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "prisma:dev:deploy": "prisma migrate deploy",
+    "docker:dev:rm": "docker compose rm -s -f -v",
+    "docker:dev:up": "docker compose up -d --build",
+    "docker:start": "npm run docker:dev:rm && npm run docker:dev:up &&  npm run prisma:dev:deploy",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
