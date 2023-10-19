@@ -1,6 +1,6 @@
 import { IsOptional, IsString } from "class-validator";
 
-export class EditBookmarkDto {
+export class EditTodoDto {
   @IsString()
   @IsOptional()
   title?: string;

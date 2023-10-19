@@ -3,7 +3,7 @@ import {
     IsString,
   } from 'class-validator';
   
-  export class CreateBookmarkDto {
+  export class CreateTodoDto {
     @IsString()
     @IsNotEmpty()
     title: string;
