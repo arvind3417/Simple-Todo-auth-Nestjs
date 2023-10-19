@@ -48,3 +48,8 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+### Docker
+```bash
+npm run docker:start
+```
+For more queries i'd advice you to take a look at package.json carefully
