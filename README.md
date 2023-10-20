@@ -3,12 +3,12 @@
 ### URL
 Hosted:
 ```bash
-https://bitespeed-1ijn.onrender.com
+https://ajargh.onrender.com
 ```
 
 ### Documentation
 ```
-https://bitespeed-1ijn.onrender.com/api#/
+https://ajargh.onrender.com/api#/
 ```
 
 ### clone
